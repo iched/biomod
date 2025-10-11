@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Antibiotic Nanozyme Project</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="animation.css">
+</head>
+<body>
+    <!-- 顶部导航栏 -->
+    <header class="topbar">
+        <div class="topbar-inner container">
+            <!-- 品牌链接 -->
+            
+            <div class="nav-desktop">
+                <a href="index.html">Home</a>
+                <a href="project.html" class="active">Project</a>
+                <a href="design.html">Design</a>
+                <a href="feasibility.html">Feasibility</a>
+                <a href="method.html">Method</a>
+                
+                <a href="result.html">Result</a>
+                <a href="about.html">About Us</a>
+                <a href="future.html">Future</a>
+                <a href="elsi.html">ELSI</a>
+            </div>
+            <!-- 汉堡菜单按钮 -->
+            <button class="hamburger">
+                <span class="ham-line"></span>
+                <span class="ham-line"></span>
+                <span class="ham-line"></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- 移动菜单 -->
+    <div class="mobile-menu">
+        <div class="mobile-nav">
+            <a href="index.html">Home</a>
+            <a href="project.html">Project</a>
+            <a href="design.html">Design</a>
+            <a href="feasibility.html">Feasibility</a>
+            <a href="method.html">Method</a>
+           
+            <a href="result.html">Result</a>
+            <a href="about.html">About Us</a>
+            <a href="future.html">Future</a>
+            <a href="elsi.html">ELSI</a>
+        </div>
+    </div>
+
+    <!-- 主内容区域 -->
+    <main>
+        <div class="container">
+            <!-- Background部分 -->
+             <section class="section">
+                <div class="emphasis-title">
+                    <h2>Research Background</h2>
+                </div>
+                <div class="wide-margin">
+                    <p>Antibiotic resistance poses a significant and growing threat to global public health<sup>[1]</sup>. Current strategies for antibiotic modification are limited by insufficient broad-spectrum applicability and an overreliance on single mechanisms of action<sup>[2]</sup>. A well-established mechanism underlying the development of multidrug resistance in microorganisms involves a reduction in intracellular redox activity, leading to a metabolically dormant state and decreased antibiotic uptake. Additionally, the robust extracellular polymeric matrix of biofilms acts as a physical barrier that limits antibiotic penetration. Previous studies have demonstrated that disrupting microbial redox homeostasis can effectively eradicate dormant microbial cells and compromise biofilm structural integrity<sup>[3]</sup>. Furthermore, nanozymes possess enzyme-mimetic catalytic properties and are capable of modulating microbial redox balance through the generation of reactive oxygen species (ROS)<sup>[4-6]</sup>. Therefore, by designing antibiotic nanozymes, it is feasible to modulate intracellular redox homeostasis in microorganisms, thereby enhancing their susceptibility to antibiotics.</p>
+                </div>
+            </section>
+
+            <section class="section">
+                <div class="text-centered">
+                <figure class="fig center-fig">
+                    <img src="project/1.png" alt="Figure from [7]">
+                    <figcaption>Fig.1 A schematic to summarize multi-antifungal actions of Ni-IH-7 nanotubes as an integrated nanozyme<sup>[7]</sup></figcaption>
+                </figure>
+                </div>
+            </section>
+
+            <!-- Problem Statement部分 -->
+             <section class="section">
+                <div class="emphasis-title">
+                    <h2>Problem Statement</h2>
+                </div>
+                <div class="wide-margin">
+                    <p>Antimicrobial resistance (AMR), which arises from bacterial adaptations that diminish the efficacy of therapeutic agents, has emerged as a critical global public health threat in the 21st century. According to the Review on Antimicrobial Resistance commissioned by the UK government, AMR could result in up to 10 million deaths annually by 2050, with cumulative economic losses projected to reach $100 trillion<sup>[8]</sup>. A comprehensive statistical analysis of data<sup>[9]</sup> from 204 countries and territories in 2019, encompassing 23 pathogens and 88 pathogen-drug combinations, revealed that approximately 4.95 million deaths were associated with antibiotic-resistant bacterial infections across these combinations. Among these, 1.27 million deaths were directly attributable to antimicrobial resistance. A comparative analysis with all global underlying causes of death in 2019 indicates that if these infections had remained susceptible to treatment, AMR would have ranked as the third leading cause of death worldwide at the GBD Level 3 category, exceeded only by ischemic heart disease and stroke. These results affirm that antimicrobial resistance constitutes a urgent global health crisis, underscoring the imperative to develop innovative antibacterial therapies and reverse resistance trends.</p>
+                </div>
+            </section>
+
+            <section class="section">
+                <div class="text-centered">
+                <figure class="fig center-fig">
+                    <img src="project/2.png" alt="Figure. 2. All-age rate of deaths attributable to and associated with bacterial antimicrobial resistance by GBD region, 2019.GBD=Global Burden of Diseases, Injuries, and Risk Factors Study.">
+                    <figcaption>Fig.2 Main Mechanisms of Resistance.Figure from lipotype.com</figcaption>
+                </figure>
+                </div>
+            </section>
+
+        
+            <!-- Current Challenges部分 -->
+            <section class="section">
+                <div class="emphasis-title">
+                    <h2>Current Challenges</h2>
+                </div>
+                <div class="wide-margin">
+                    <p>The current landscape of AMR is highly complex and dynamically evolving. Among the diverse resistance mechanisms, reduced membrane permeability, which results in decreased intracellular antibiotic accumulation, constitutes one of the most critical and widespread strategies employed by bacteria<sup>[1]</sup>. In response to major resistance determinants such as reduced membrane permeability, overexpression of efflux pumps<sup>[2]</sup>, and enzymatic antibiotic inactivation<sup>[3]</sup>, researchers have developed several innovative antibiotic modification strategies. These include novel β-lactamase inhibitors, siderophore-antibiotic conjugates, antibody-antibiotic conjugates, and combination therapies incorporating proton pump inhibitors. Despite demonstrating translational potential and efficacy against specific resistance mechanisms, these strategies face several fundamental limitations<sup>[4]</sup>. First, their continued reliance on membrane protein-mediated transport systems creates inherent vulnerability to resistance evolution. Second, structural modifications of antibiotic scaffolds or antibody conjugation approaches often involve high production costs and exhibit limited applicability across diverse bacterial pathogens. Third, mono-mechanistic interventions frequently yield insufficient efficacy in reversing established resistance phenotypes. To address these challenges, we propose the development of antibiotic nanozyme that employ coordinated multimodal antibacterial mechanisms. This integrated strategy is designed not only to counteract existing resistance, but also to prevent the emergence of new resistance mutations. By simultaneously targeting multiple bacterial vulnerabilities, our approach offers a promising and sustainable therapeutic paradigm for combating antimicrobial resistance.</p>
+                </div>
+            </section>
+
+            <section class="section">
+                <div class="text-centered">
+                <figure class="fig center-fig">
+                    <img src="project/3.png" alt="Figure from [10]">
+                    <figcaption>Fig.3 Previous strategies<sup>[10]</sup></figcaption>
+                </figure>
+                </div>
+            </section>
+
+            <!-- Solutions部分 -->
+            <section class="section">
+                <div class="emphasis-title">
+                    <h2>Proposed Solutions</h2>
+                </div>
+                <div class="two-col">
+                    <div class="col text-col">
+                        <p>As a promising class of catalytic nanomaterials, nanozymes provide a novel approach to combat bacterial resistance. Our strategy involves engineering nanozymes to disrupt resistance mechanisms, thereby resensitizing resistant bacteria and potentiating the activity of conventional antibiotics.</p>
+                    </div>
+                <div class="col image-col">
+                    <div class="fig">
+                        <img src="project/4.png" alt="Figure from [10]">
+                        <figcaption>Fig.4 Antibacterial methods and mechanisms of nanozymes<sup>[11]</sup></figcaption>
+                    </div>
+                </div>
+            </section>
+                
+             <section class="section">
+                <div class="wide-margin">
+                    <p>A pivotal aspect of this strategy lies in the judicious selection of an appropriate antibiotic agent. Our primary focus is on hemin, an iron-containing porphyrin compound. Hemin functions as a critical cofactor in numerous enzymatic reactions <i>in vivo</i> and plays a key role in the transport of gaseous molecules. Its catalytic activity is principally regulated by histidine-modulated axial coordination, with the intrinsic porphyrin structure forming the basis for its enzyme-mimetic properties<sup>[12-13]</sup>. Notably, many antibiotic molecules possess functional groups capable of effectively displacing the chloride atom in ferric hemin (Fe(III)-hemin), serving as axial ligands to the iron-N<sub>4</sub> plane, forming a pentacoordinate structural unit<sup>[14]</sup>. These structural characteristics enable the self-assembly of nanoparticle aggregates through various non-covalent interactions, including hydrogen bonding, salt bridges, π-π stacking, and cation-π interactions, resulting in the formation of an antibiotic-nanozyme complex<sup>[15]</sup>.</p>
+                </div>
+            </section>
+
+            
+            
+            <section>
+                <div class="two-col">
+                    <div class="col text-col">
+                        <p>The engineered antibiotic nanozyme retains the intrinsic antibacterial activity of its antibiotic component while acquiring <i>de novo</i> catalytic functionality through axial ligand substitution, a structural feature that mimics the natural histidine coordination in peroxidases. This acquired catalytic activity facilitates efficient degradation of bacterial biofilms and modulates membrane permeability. The consequent disruption of the biofilm matrix, combined with increased membrane permeability, acts synergistically to enhance intracellular accumulation of the antibiotic within target bacteria<sup>[16]</sup>. Moreover, the molecular self-assembly approach employed for synthesizing these antibiotic nanozymes provides a straightforward and scalable fabrication process, presenting substantial potential for future translational applications.</p>
+                    </div>
+                    <div class="col image-col">
+                        <div class="fig">
+                            <img src="project/5.png" alt="Figure1.5 Formation of nanozyme by binding Hemin to FCZ and the mechanism of action of the nanozyme">
+                            <figcaption>Fig.5 Construction of the nanozyme through the integration of Hemin with FCZ and its catalytic mechanism</figcaption>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+             <section class="section">
+                <div class="wide-margin">
+                    <p>The proposed design strategy for antibiotic nanozymes demonstrates potential applicability across a broad spectrum of antibiotic classes, representing a promising approach to addressing the current antibiotic resistance crisis. Furthermore, we anticipate that extending the selection of cofactor molecules beyond hemin could substantially expand the platform's versatility and introduce enhanced multifunctionality.</p>
+                </div>
+            </section>
+
+            <!-- Goals部分 -->
+            <section class="section">
+                <div class="emphasis-title">
+                    <h2>Research Objectives</h2>
+                </div>
+                <div class="text-centered">
+                    <p>The specific objectives of this project are as follows:</p>
+                </div>
+                <div class="text-centered">
+                    <div class="fig center-fig">
+                        <img src="project/project.goal.1.png" alt="Goal 1 Visualization">
+                       
+                    </div>
+                    <div class="fig center-fig">
+                        <img src="project/project.goal2.png" alt="Goal 2 Visualization">
+                        
+                    </div>
+                    <div class="fig center-fig">
+                        <img src="project/project.goal.3.png" alt="Goal 3 Visualization">
+                        
+                    </div>
+                </div>
+            </section>
+
+            <!-- Feasibility部分 -->
+            <section class="section">
+                <div class="emphasis-title">
+                    <h2>Feasibility Analysis</h2>
+                </div>
+                <div class="wide-margin">
+                    <p>Preliminary evaluation of the synthesized antibiotic nanozymes reveals a significant enhancement in antimicrobial efficacy against drug-resistant bacterial strains. These nanoconstructs demonstrate potent activity against both planktonic cells and mature biofilms through multimodal mechanisms that effectively reverse established resistance patterns. The results substantiate both the feasibility and strategic soundness of the proposed research design.</p>
+                    <p>Furthermore, our team operates within an integrated collaborative framework that combines specialized expertise with a clearly defined division of responsibilities, enabling efficient execution of research objectives. When confronting experimental challenges, we maintain open communication and collaborative problem-solving, systematically incorporating insights from all experimental outcomes to iteratively refine our methodologies. This continuous improvement process is reinforced by consistent advisory guidance and sustained through stable laboratory funding, ensuring both the steady progression and scientific integrity of our research.</p>
+                </div>
+            </section>
+
+            <!-- 参考文献部分 -->
+            <section class="section references">
+                <div class="emphasis-title">
+                    <h2>References</h2>
+                </div>
+                <div class="refs">
+                    <p>[1] Antimicrobial Resistance Collaborators. Global burden of bacterial antimicrobial resistance in 2019: a systematic analysis. <i>Lancet</i>. 2022;399(10325):629-655.</p>
+                    <p>[2] Wright GD. Antibiotic adjuvants: rescuing antibiotics from resistance. <i>Trends Microbiol</i>. 2016;24(11):862-871.</p>
+                    <p>[3] Shatalin K, Nuthanakanti A, Kaushik A, et al. Inhibitors of bacterial H2S biogenesis targeting antibiotic resistance and tolerance. <i>Science</i>. 2021;372(6547):1169-1175.</p>
+                    <p>[4] Hu H, Wang H, Yang Y, et al. A DNase-mimetic artificial enzyme for the eradication of drug-resistant bacterial biofilm infections. <i>Nanoscale</i>. 2022;14(7):2676-2685.</p>
+                    <p>[5] Liu C, Mao Y, Zhang J, et al. Metal-organic framework-modulated Fe3O4 composite au nanoparticles for antibacterial wound healing via synergistic peroxidase-like nanozymatic catalysis. <i>J Nanobiotechnology</i>. 2023;21(1):427.</p>
+                    <p>[6] Tong A, Zhao L, He J, et al. Prussian blue nano-enzyme-assisted photodynamic therapy effectively eradicates MRSA infection in diabetic mouse skin wounds. <i>Biomater Sci</i>. 2023;11(18):6342-6356.</p>
+                    <p>[7] Yuan Y, Chen L, Song K, et al. Stable peptide-assembled nanozyme mimicking dual antifungal actions. <i>Nat Commun</i>. 2024;15(1):5636.</p>
+                    <p>[8] Chen Z, Wang Z, Ren J, Qu X. Enzyme mimicry for combating bacteria and biofilms. <i>Acc Chem Res</i>. 2018;51(3):789-799.</p>
+                    <p>[9] Global Burden of Disease Study 2019 (GBD 2019) Results. Seattle, WA: University of Washington. https://vizhub.healthdata.org/gbd-results/.</p>
+                    <p>[10] Ye J, Chen X. Current Promising Strategies against Antibiotic-Resistant Bacterial Infections. <i>Antibiotics (Basel)</i>. 2022;12(1):67.</p>
+                    <p>[11] Zheng H, Huarong X, Yiduo D, et al. Nanozymes in the field of antibacterial applications: mechanisms and optimization strategies. <i>Coordination Chemistry Reviews</i>. 2025;543:216939.</p>
+                    <p>[12] Poulos TL. Heme enzyme structure and function. <i>Chem Rev</i>. 2014;114(7):3919-3962.</p>
+                    <p>[13] Liu Y, Qin Z. Hemin-based nanozymes: design, synthesis, and biomedical applications. <i>Small</i>. 2020;16(30):2001700.</p>
+                    <p>[14] Scheidt WR, Reed CA. Spin-state/stereochemical relationships in iron porphyrins: implications for the hemoproteins. <i>Chem Rev</i>. 1981;81(6):543-555.</p>
+                    <p>[15] Whitesides GM, Grzybowski B. Self-assembly at all scales. <i>Science</i>. 2002;295(5564):2418-2421.</p>
+                    <p>[16] Gao L, Zhuang J, Nie L, et al. Intrinsic peroxidase-like activity of ferromagnetic nanoparticles. <i>Nat Nanotechnol</i>. 2007;2(9):577-583.</p>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <!-- 页脚 -->
+    <footer class="site-footer">
+        <div class="container">
+            <p>&copy; 2025 Antibiotic Nanozyme Research Project.</p>
+        </div>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
